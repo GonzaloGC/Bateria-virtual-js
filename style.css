@@ -19,11 +19,14 @@ html {
   align-items: flex-end;
   min-height: 100vh;
   margin-bottom: auto;
+  position: relative;
+  bottom: 125px;
 }
 
 .key {
-  border: 0.1rem solid black;
-  border-radius: 50%;
+  border: 0.1rem solid #342727e1;
+  /* box-shadow: #fff; */
+  border-radius: 0.5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem 0.5rem;
@@ -31,7 +34,7 @@ html {
   width: 8rem;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
+  background: #342727e1;
   text-shadow: 0 0 0.5rem #ffffff;
 }
 
